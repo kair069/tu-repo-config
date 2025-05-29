@@ -1,0 +1,5 @@
+server:
+  port: 8081
+
+example:
+  message: "Hola desde el Config Server"
