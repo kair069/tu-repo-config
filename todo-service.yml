@@ -4,6 +4,13 @@ server:
 spring:
   application:
     name: todo-service
+  boot:
+    admin:
+      client:
+        url: http://localhost:9090  # URL del Admin Server
+        instance:
+          prefer-ip: true
+          service-host-type: ip     
 
   datasource:
     url: jdbc:mysql://localhost:3306/tareasmicroservicio1?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
