@@ -27,10 +27,7 @@ spring:
         dialect: org.hibernate.dialect.MySQL8Dialect
         format_sql: true
 
-  security:
-    user:
-      name: admin
-      password: admin123
+
 
 eureka:
   client:
